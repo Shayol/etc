@@ -165,11 +165,11 @@ canvas {
   .content:before {
     background: -webkit-gradient(linear, left top, left bottom, from(white), to(rgba(255, 255, 255, 0)));
     background: linear-gradient(to bottom, white 0%, rgba(255, 255, 255, 0) 100%);
-    top: -1px; }
+    top: -2px; }
   .content:after {
     background: -webkit-gradient(linear, left bottom, left top, from(white), to(rgba(255, 255, 255, 0)));
     background: linear-gradient(to top, white 0%, rgba(255, 255, 255, 0) 100%);
-    bottom: -1px; }
+    bottom: -2px; }
   .content__item {
     -webkit-transition: opacity 0.4s cubic-bezier(0.02, 0.01, 0.47, 1);
     transition: opacity 0.4s cubic-bezier(0.02, 0.01, 0.47, 1);
@@ -281,7 +281,8 @@ canvas {
     margin-bottom: 9.5vh;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 15px; }
+    padding-top: 15px;
+    padding-bottom: 15px; }
   .work__text {
     padding-top: 3.5vh; }
   .work__media {
